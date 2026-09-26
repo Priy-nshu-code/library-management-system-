@@ -1,0 +1,429 @@
+{
+    "books": {
+        "B101": {
+            "id": "B101",
+            "title": "Python Basics",
+            "author": "Guido van Rossum & Dan Bader",
+            "category": "Programming",
+            "total_copies": 12,
+            "available_copies": 5,
+            "tags": [
+                "python",
+                "beginner",
+                "coding",
+                "syntax",
+                "oop"
+            ],
+            "issue_count": 42,
+            "added_date": "2026-01-10"
+        },
+        "B102": {
+            "id": "B102",
+            "title": "DBMS Fundamentals",
+            "author": "Abraham Silberschatz & Henry Korth",
+            "category": "Database",
+            "total_copies": 10,
+            "available_copies": 3,
+            "tags": [
+                "sql",
+                "database",
+                "rdbms",
+                "indexing",
+                "acid"
+            ],
+            "issue_count": 37,
+            "added_date": "2026-01-12"
+        },
+        "B103": {
+            "id": "B103",
+            "title": "Clean Code",
+            "author": "Robert C. Martin",
+            "category": "Software Engineering",
+            "total_copies": 8,
+            "available_copies": 2,
+            "tags": [
+                "refactoring",
+                "best practices",
+                "clean architecture",
+                "software"
+            ],
+            "issue_count": 31,
+            "added_date": "2026-01-15"
+        },
+        "B104": {
+            "id": "B104",
+            "title": "Artificial Intelligence: A Modern Approach",
+            "author": "Stuart Russell & Peter Norvig",
+            "category": "Artificial Intelligence",
+            "total_copies": 6,
+            "available_copies": 1,
+            "tags": [
+                "ai",
+                "machine learning",
+                "agents",
+                "search",
+                "nlp"
+            ],
+            "issue_count": 28,
+            "added_date": "2026-01-20"
+        },
+        "B105": {
+            "id": "B105",
+            "title": "Data Structures & Algorithms in Python",
+            "author": "Michael T. Goodrich",
+            "category": "Computer Science",
+            "total_copies": 7,
+            "available_copies": 0,
+            "tags": [
+                "dsa",
+                "algorithms",
+                "arrays",
+                "trees",
+                "graphs",
+                "python"
+            ],
+            "issue_count": 26,
+            "added_date": "2026-01-22"
+        },
+        "B106": {
+            "id": "B106",
+            "title": "Computer Networks",
+            "author": "Andrew S. Tanenbaum",
+            "category": "Networking",
+            "total_copies": 5,
+            "available_copies": 4,
+            "tags": [
+                "tcp/ip",
+                "protocols",
+                "osi model",
+                "routing",
+                "security"
+            ],
+            "issue_count": 19,
+            "added_date": "2026-02-01"
+        },
+        "B107": {
+            "id": "B107",
+            "title": "Designing Data-Intensive Applications",
+            "author": "Martin Kleppmann",
+            "category": "Database",
+            "total_copies": 8,
+            "available_copies": 4,
+            "tags": [
+                "distributed systems",
+                "replication",
+                "scalability",
+                "kafka"
+            ],
+            "issue_count": 24,
+            "added_date": "2026-02-10"
+        },
+        "B108": {
+            "id": "B108",
+            "title": "Operating System Concepts",
+            "author": "Abraham Silberschatz & Greg Gagne",
+            "category": "Computer Science",
+            "total_copies": 6,
+            "available_copies": 3,
+            "tags": [
+                "processes",
+                "memory management",
+                "threads",
+                "virtualization"
+            ],
+            "issue_count": 17,
+            "added_date": "2026-02-15"
+        }
+    },
+    "members": {
+        "M001": {
+            "id": "M001",
+            "name": "Dr. Sarah Librarian",
+            "phone": "9876543210",
+            "email": "admin@library.org",
+            "pin_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+            "role": "admin",
+            "status": "active",
+            "created_at": "2026-01-01",
+            "total_borrowed_count": 0
+        },
+        "M101": {
+            "id": "M101",
+            "name": "Arjun Mehta",
+            "phone": "9812345678",
+            "email": "arjun.m@example.com",
+            "pin_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+            "role": "member",
+            "status": "active",
+            "created_at": "2026-01-05",
+            "total_borrowed_count": 7
+        },
+        "M102": {
+            "id": "M102",
+            "name": "Rahul Sharma",
+            "phone": "9823456789",
+            "email": "rahul.s@example.com",
+            "pin_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+            "role": "member",
+            "status": "active",
+            "created_at": "2026-01-08",
+            "total_borrowed_count": 18
+        },
+        "M114": {
+            "id": "M114",
+            "name": "Priya Patel",
+            "phone": "9834567890",
+            "email": "priya.p@example.com",
+            "pin_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+            "role": "member",
+            "status": "active",
+            "created_at": "2026-01-12",
+            "total_borrowed_count": 15
+        },
+        "M127": {
+            "id": "M127",
+            "name": "Amit Verma",
+            "phone": "9845678901",
+            "email": "amit.v@example.com",
+            "pin_hash": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4",
+            "role": "member",
+            "status": "active",
+            "created_at": "2026-01-18",
+            "total_borrowed_count": 13
+        },
+        "M128": {
+            "id": "M128",
+            "name": "Test User",
+            "phone": "9988776655",
+            "email": "test.user@hackathon.org",
+            "pin_hash": "be41b7f1fa56ba2b0582910053c86cf6ee7e311efc51300220df0918bb9a287b",
+            "role": "member",
+            "status": "active",
+            "created_at": "2026-09-26",
+            "total_borrowed_count": 0
+        },
+        "M129": {
+            "id": "M129",
+            "name": "Test User",
+            "phone": "9990405791",
+            "email": "test_1790405791@hackathon.org",
+            "pin_hash": "be41b7f1fa56ba2b0582910053c86cf6ee7e311efc51300220df0918bb9a287b",
+            "role": "member",
+            "status": "active",
+            "created_at": "2026-09-26",
+            "total_borrowed_count": 0
+        },
+        "M130": {
+            "id": "M130",
+            "name": "Test User",
+            "phone": "9990406469",
+            "email": "test_1790406469@hackathon.org",
+            "pin_hash": "be41b7f1fa56ba2b0582910053c86cf6ee7e311efc51300220df0918bb9a287b",
+            "role": "member",
+            "status": "active",
+            "created_at": "2026-09-26",
+            "total_borrowed_count": 0
+        },
+        "M131": {
+            "id": "M131",
+            "name": "Test User",
+            "phone": "9990406621",
+            "email": "test_1790406621@hackathon.org",
+            "pin_hash": "be41b7f1fa56ba2b0582910053c86cf6ee7e311efc51300220df0918bb9a287b",
+            "role": "member",
+            "status": "active",
+            "created_at": "2026-09-26",
+            "total_borrowed_count": 0
+        },
+        "M132": {
+            "id": "M132",
+            "name": "Test User",
+            "phone": "9990407441",
+            "email": "test_1790407441@hackathon.org",
+            "pin_hash": "be41b7f1fa56ba2b0582910053c86cf6ee7e311efc51300220df0918bb9a287b",
+            "role": "member",
+            "status": "active",
+            "created_at": "2026-09-26",
+            "total_borrowed_count": 0
+        }
+    },
+    "transactions": [
+        {
+            "txn_id": "TXN1001",
+            "book_id": "B101",
+            "book_title": "Python Basics",
+            "member_id": "M101",
+            "member_name": "Arjun Mehta",
+            "issue_date": "2026-09-10",
+            "due_date": "2026-09-24",
+            "return_date": null,
+            "status": "OVERDUE",
+            "fine_amount": 10.0,
+            "fine_paid": false
+        },
+        {
+            "txn_id": "TXN1002",
+            "book_id": "B103",
+            "book_title": "Clean Code",
+            "member_id": "M101",
+            "member_name": "Arjun Mehta",
+            "issue_date": "2026-09-20",
+            "due_date": "2026-10-04",
+            "return_date": null,
+            "status": "ISSUED",
+            "fine_amount": 0.0,
+            "fine_paid": false
+        },
+        {
+            "txn_id": "TXN1003",
+            "book_id": "B105",
+            "book_title": "Data Structures & Algorithms in Python",
+            "member_id": "M102",
+            "member_name": "Rahul Sharma",
+            "issue_date": "2026-09-15",
+            "due_date": "2026-09-29",
+            "return_date": null,
+            "status": "ISSUED",
+            "fine_amount": 0.0,
+            "fine_paid": false
+        },
+        {
+            "txn_id": "TXN0990",
+            "book_id": "B102",
+            "book_title": "DBMS Fundamentals",
+            "member_id": "M101",
+            "member_name": "Arjun Mehta",
+            "issue_date": "2026-08-01",
+            "due_date": "2026-08-15",
+            "return_date": "2026-08-14",
+            "status": "RETURNED",
+            "fine_amount": 0.0,
+            "fine_paid": true
+        }
+    ],
+    "reservations": [
+        {
+            "res_id": "RES1001",
+            "book_id": "B105",
+            "member_id": "M101",
+            "reserved_at": "2026-09-22",
+            "status": "PENDING"
+        }
+    ],
+    "wishlists": {
+        "M101": [
+            "B104",
+            "B107"
+        ],
+        "M102": [
+            "B101",
+            "B103"
+        ],
+        "M128": [],
+        "M129": [],
+        "M130": [],
+        "M131": [],
+        "M132": []
+    },
+    "reviews": [
+        {
+            "review_id": "REV101",
+            "book_id": "B101",
+            "member_id": "M102",
+            "member_name": "Rahul Sharma",
+            "rating": 5,
+            "comment": "Outstanding beginner friendly book for Python with clear practical examples.",
+            "date": "2026-08-20"
+        },
+        {
+            "review_id": "REV102",
+            "book_id": "B103",
+            "member_id": "M114",
+            "member_name": "Priya Patel",
+            "rating": 5,
+            "comment": "Must read for every software developer. Totally transformed my code formatting!",
+            "date": "2026-08-25"
+        },
+        {
+            "review_id": "REV103",
+            "book_id": "B102",
+            "member_id": "M127",
+            "member_name": "Amit Verma",
+            "rating": 4,
+            "comment": "Solid foundational book on SQL and relational schemas.",
+            "date": "2026-09-02"
+        },
+        {
+            "review_id": "REV104",
+            "book_id": "B101",
+            "member_id": "M101",
+            "member_name": "Arjun Mehta",
+            "rating": 5,
+            "comment": "VERY GOOOD BOOK EVERYONE SHOULD USE IT",
+            "date": "2026-09-26"
+        }
+    ],
+    "notifications": {
+        "M101": [
+            {
+                "id": "NOTIF1",
+                "message": "Overdue Warning: 'Python Basics' was due on 2026-09-24. Please return promptly.",
+                "date": "2026-09-25",
+                "read": true,
+                "type": "OVERDUE"
+            },
+            {
+                "id": "NOTIF2",
+                "message": "Welcome to the Smart Library System! Explore catalogue and AI recommendations.",
+                "date": "2026-09-05",
+                "read": true,
+                "type": "SYSTEM"
+            }
+        ],
+        "M128": [
+            {
+                "id": "NOTIF_M128_INIT",
+                "message": "Welcome to Smart Library, Test User! Your Member ID is M128.",
+                "date": "2026-09-26",
+                "read": false,
+                "type": "SYSTEM"
+            }
+        ],
+        "M129": [
+            {
+                "id": "NOTIF_M129_INIT",
+                "message": "Welcome to Smart Library, Test User! Your Member ID is M129.",
+                "date": "2026-09-26",
+                "read": false,
+                "type": "SYSTEM"
+            }
+        ],
+        "M130": [
+            {
+                "id": "NOTIF_M130_INIT",
+                "message": "Welcome to Smart Library, Test User! Your Member ID is M130.",
+                "date": "2026-09-26",
+                "read": false,
+                "type": "SYSTEM"
+            }
+        ],
+        "M131": [
+            {
+                "id": "NOTIF_M131_INIT",
+                "message": "Welcome to Smart Library, Test User! Your Member ID is M131.",
+                "date": "2026-09-26",
+                "read": false,
+                "type": "SYSTEM"
+            }
+        ],
+        "M132": [
+            {
+                "id": "NOTIF_M132_INIT",
+                "message": "Welcome to Smart Library, Test User! Your Member ID is M132.",
+                "date": "2026-09-26",
+                "read": false,
+                "type": "SYSTEM"
+            }
+        ]
+    }
+}
